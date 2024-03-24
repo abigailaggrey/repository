@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(49, 1, 49);
+  width: 100%;
+  height: 950px;
+  position: absolute;
+}
+
+.line {
+  border-style: groove;
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+  width: 10px;
+  height: 460px;
+  margin-top: 100px;
+  margin-left: 50px;
+  position: absolute;
+}
+
+.line-two {
+  border-style: groove;
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+  width: 10px;
+  height: 460px;
+  margin-top: 100px;
+  margin-left: 700px;
+  position: absolute;
+}
+
+.border {
+  border-style: groove;
+  width: 568px;
+  height:218px;
+  margin-left:80px;
+  border-color: white;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.border-one {
+  border-style: groove;
+  width: 568px;
+  height:218px;
+  margin-left:80px;
+  border-color: white;
+  margin-top: 335px;
+  position: absolute;
+}
+
+.border-two {
+  border-style: groove;
+  width: 568px;
+  height:218px;
+  margin-left:730px;
+  border-color: white;
+  margin-top: 335px;
+  position: absolute;
+}
+
+.border-three {
+  border-style: groove;
+  width: 568px;
+  height:218px;
+  margin-left:730px;
+  border-color: white;
+  margin-top: 100px;
+  position: absolute;
+}
+
+table{
+  margin-top: 40px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 100px;
+}
+
+th{
+  font-size: 20px;
+  color: white;
+  display: flex;
+}
+
+.let {
+  font-size: 25px;
+}
+
+h2 {
+  padding-right: 520px;
+}
+
+td {
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.content-mark {
+  margin-top: -450px;
+  margin-left: 650px;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+}
+.content-end {
+  margin-left: 650px;
+  margin-top: -210px;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+ 
+  .line {
+    border-style: groove;
+    border-left: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+    width: 10px;
+    height: 500px;
+    margin-top: 135px;
+    margin-left: 50px;
+    position: absolute;
+  }
+  
+  .line-two {
+    margin-top: 750px;
+    margin-left: 50px;
+    height: 400px;
+    position: absolute;
+  }
+  
+  .border {
+    border-style: groove;
+    width: 450px;
+    height:218px;
+    margin-left:80px;
+    border-color: white;
+    margin-top: 130px;
+    position: absolute;
+  }
+  
+  .border-one {
+    border-style: groove;
+    width: 450px;
+    height:218px;
+    margin-left:80px;
+    border-color: white;
+    margin-top: 410px;
+    position: absolute;
+  }
+  
+  .border-two {
+    border-style: groove;
+    width: 450px;
+    height:170px;
+    margin-left:80px;
+    border-color: white;
+    margin-top: 980px;
+    position: absolute;
+  }
+  
+  .border-three {
+    border-style: groove;
+    width: 450px;
+    height:170px;
+    margin-left:80px;
+    border-color: white;
+    margin-top: 737px;
+    position: absolute;
+  }
+  
+  table{
+    margin-top: 45px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 100px;
+  }
+  
+  th{
+    font-size: 19px;
+    color: white;
+   
+  }
+
+  .let {
+    padding-top: 610px;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 9px;
+  }
+  
+  h2 {
+  position: absolute;
+  margin-top: -5px;
+  font-size: 15px;
+  }
+  
+  .content {
+    margin-top: 30px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  .about {
+    margin-top: 15px;
+  }
+  
+  .content-mark {
+    margin-top: 65px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 17px;
+    color: white;
+  }
+  .content-end {
+    margin-left: 10px;
+    margin-top: 300px;
+    position: absolute;
+    font-size: 17px;
+    color: white;
+  }
+}
